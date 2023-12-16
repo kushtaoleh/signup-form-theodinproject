@@ -67,10 +67,11 @@ body{
 }
 
 .topText{
-    padding-top: 150px;
     width: 720px;
     padding-left: 50px;
     margin-bottom: 70px;
+    padding-right: 30px;
+    padding-top: 70px;
 }
 
 .SingupField{
@@ -174,5 +175,14 @@ input{
     }
     #logo{
         min-width: 30%;
+    }
+}
+@media only screen and (max-width: 340px) {
+    .bottomText > p{
+        font-size: 14px;
+    }
+    .topText{
+        padding-right: 30px;
+        padding-top: 70px;
     }
 }
