@@ -15,6 +15,10 @@
 body{
     height: 100vh;
     margin: 0;
+    background-color: #F9FAFB;
+}
+.standard{
+    font-size: 25px;
 }
 
 #wrapper{
@@ -54,17 +58,36 @@ body{
     flex: 3;
     border: 1px solid black;
     height: 1000px;
-    margin-left: 50px;
 }
 
 .topText{
     padding-top: 150px;
     width: 720px;
-    font-size: 25px;
+    padding-left: 50px;
 }
 
 .topText span{
     display: block;
+}
+
+.SingupField{
+    -webkit-box-shadow: -1px 7px 15px 0px rgba(0,0,0,0.5); 
+    box-shadow: -1px 7px 15px 0px rgba(0,0,0,0.5);
+    background-color: white;
+    padding: 25px 0 25px 50px;
+}
+
+label{
+    display: block;
+}
+
+#inputFields{
+    border: 2px solid black;
+    display: flex;
+    max-width: 500px;
+    flex-wrap: wrap;
+    column-gap: 70px;
+    row-gap: 20px;
 }
 
 
