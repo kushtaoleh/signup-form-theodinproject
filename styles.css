@@ -13,6 +13,7 @@
 
 body{
     height: 100vh;
+    margin: 0;
 }
 
 #wrapper{
@@ -28,10 +29,18 @@ body{
     min-height: 1000px;
     object-fit: cover;
 }
+#logo{
+    position: fixed;
+    width: 400px;
+    height: 100px;
+    background-color: black;
+    
+}
+
 .signupSection{
     flex: 3;
     border: 1px solid black;
-    height: 500px;
+    height: 1000px;
 }
 
 
