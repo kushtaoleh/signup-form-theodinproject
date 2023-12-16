@@ -20,8 +20,13 @@ body{
 }
 .heroImg{
     flex: 1;
+    max-width: 400px;
     border: 1px solid black;
-    height: 500px;
+}
+.heroImg > img{
+    max-width: 400px;
+    min-height: 1000px;
+    object-fit: cover;
 }
 .signupSection{
     flex: 3;
