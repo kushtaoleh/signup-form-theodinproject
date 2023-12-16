@@ -1,8 +1,14 @@
-*{
-    box-sizing: border-box;
-}
-
 @font-face {
     font-family: logoFont;
     src: url(fonts/Norse-Bold.otf);
 }
+@font-face {
+    font-family: RegularTextRoboto;
+    src: url(fonts/Roboto/Roboto-Regular.ttf);
+}
+*{
+    box-sizing: border-box;
+    font-family: RegularTextRoboto;
+}
+
+
