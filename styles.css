@@ -10,6 +10,7 @@
 *{
     box-sizing: border-box;
     font-family: RegularTextRoboto;
+    font-size: 16px;
 }
 
 body{
@@ -17,8 +18,14 @@ body{
     margin: 0;
     background-color: #F9FAFB;
 }
-.standard{
-    font-size: 25px;
+
+.standard > *,
+.standard,
+.standard > * > *{
+    font-size: 1.55rem;
+}
+.topText span{
+    display: block;
 }
 
 #wrapper{
@@ -50,12 +57,12 @@ body{
 #logo > p{
     color: aliceblue;
     font-family: logoFont;
-    font-size: 60px;
+    font-size: 3.75rem;
     margin: 30px 0;
 }
 
 .signupSection{
-    flex: 3;
+    flex: 1;
     border: 1px solid black;
     height: 1000px;
 }
@@ -65,10 +72,6 @@ body{
     width: 720px;
     padding-left: 50px;
     margin-bottom: 70px;
-}
-
-.topText span{
-    display: block;
 }
 
 .SingupField{
@@ -85,14 +88,17 @@ label{
     display: block;
     text-transform: uppercase;
     color: #232D3B;
+    font-size: 0.85rem;
 }
 input{
-
+    border-radius: 3px;
+    width: 210px;
+    height: 25px;
 }
 
 #inputFields{
-    border: 2px solid black;
     display: flex;
+    flex-basis: 200px;
     max-width: 500px;
     flex-wrap: wrap;
     column-gap: 70px;
