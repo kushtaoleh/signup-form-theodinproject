@@ -4,8 +4,9 @@
 }
 @font-face {
     font-family: RegularTextRoboto;
-    src: url(fonts/Roboto/Roboto-Regular.ttf);
+    src: url(fonts/Roboto/Roboto-Medium.ttf);
 }
+
 *{
     box-sizing: border-box;
     font-family: RegularTextRoboto;
@@ -53,6 +54,19 @@ body{
     flex: 3;
     border: 1px solid black;
     height: 1000px;
+    margin-left: 50px;
 }
+
+.topText{
+    padding-top: 150px;
+    width: 720px;
+    font-size: 25px;
+}
+
+.topText span{
+    display: block;
+}
+
+
 
 
